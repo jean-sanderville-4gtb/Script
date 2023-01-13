@@ -1,0 +1,33 @@
+body {
+    background-color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 50%;
+}
+
+main{
+    background-color: black;
+    color: white;
+}
+nav li{
+    display: inline-block;
+}
+nav li {
+    display: inline-block
+}
+nav a {
+    display: block;
+    padding: 20px;
+}
+nav li {
+    background-color: rgb(0, 0, 0);
+}
+nav a:hover {
+    background-color: rgb(86, 33, 232);
+}
+
+#shop {
+    background-color: rgb(186, 56, 56);
+}
