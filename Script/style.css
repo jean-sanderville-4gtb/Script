@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(20, 224, 224);
+    font-family: arial;
+}
+
+#about {
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(184, 184, 221);
+}
+
+.col {
+    padding: 5%;
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+-
