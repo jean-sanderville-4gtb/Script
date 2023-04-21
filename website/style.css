@@ -30,9 +30,20 @@ header input {
     border-radius: 30px;
     padding: 5px 10px;
     width: 120px
+
 }
-header input{-
+
+header input {
     border-radius: 20px;
     padding: 5px;
     width: 150px;
     height: 30px
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+color: gold;
+}
