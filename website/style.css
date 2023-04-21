@@ -46,4 +46,20 @@ header input {
 }
 body {
 color: gold;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
+}
+img {
+    width: 100%;
+}
+video{
+    width: 100%;
 }
