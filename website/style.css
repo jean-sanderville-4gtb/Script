@@ -1,11 +1,16 @@
+@import url("https://use.typekit.net/rrh1pzs.css");
+
 * {
     margin: 0;
-
+    box-sizing: border-box;
     padding: 0;
 }
 
 body {
     background-color: rgb(204, 189, 49);
+    color: rgb(118, 111, 68);
+    font-family: "interstate", sans-serif;
+
 }
 
 .flex-container {
@@ -17,6 +22,7 @@ body {
 header {
     padding: 20px;
     background-color: rgb(140, 140, 140);
+    color: gold;
 }
 
 header nav li {
@@ -26,11 +32,11 @@ header nav li {
 header img {
     width: 60px;
 }
+
 header input {
     border-radius: 30px;
     padding: 5px 10px;
     width: 120px
-
 }
 
 header input {
@@ -39,15 +45,7 @@ header input {
     width: 150px;
     height: 30px
 }
-* {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-}
-body {
-color: gold;
 
-}
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -57,9 +55,11 @@ color: gold;
 .flex-item {
     flex: 1;
 }
+
 img {
-    width: 100%;
+    width: 100%
 }
-video{
+
+video {
     width: 100%;
 }
