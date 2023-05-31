@@ -62,3 +62,97 @@ img {
 video {
     width: 100%;
 }
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a,
+footer ul:first-child li a {
+    color: #eeff05;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 1900%;
+    left: 1%;
+    padding: 1rem;
+    background-color: #f6ff00;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+}
+
+.highlight {
+    padding: 2rem;
+    background-color: #d4cce7;
+}
+
+.memberfoto {
+    background-image: url(membership\ foto.webp);
+    align-self: stretch;
+    background-size: cover;
+}
+
+#membership .flex-item {
+    padding: 2rem;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+footer li:first-child a {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
