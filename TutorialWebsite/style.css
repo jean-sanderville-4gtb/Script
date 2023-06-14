@@ -18,3 +18,23 @@ body {
     font-family: "owners-wide", sans-serif;
     line-height: 1;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+header {
+    grid-template-columns: repeat(3,1fr);
+    gap: 2mm;
+    align-items: end;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+header li {
+    display: inline;
+
+}
+
